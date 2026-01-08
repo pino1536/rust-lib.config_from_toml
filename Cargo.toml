@@ -4,7 +4,6 @@ version = "0.1.0"
 authors = ["Pino"]
 edition = "2024"
 description = "Creates a structure and instantiate it with values from a chosen toml file or chosen default values."
-documentation = ""
 readme = "README.md"
 repository = "https://github.com/pino1536/rust-lib.config_from_toml"
 license = "Unlicense"
