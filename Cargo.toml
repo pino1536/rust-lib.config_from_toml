@@ -1,0 +1,16 @@
+[package]
+name = "config_from_toml"
+version = "0.1.0"
+authors = ["Pino"]
+edition = "2024"
+description = "Creates a structure and instantiate it with values from a chosen toml file or chosen default values."
+documentation = ""
+readme = "README.md"
+repository = "https://github.com/pino1536/rust-lib.config_from_toml"
+license = "Unlicense"
+license-file = "LICENSE"
+keywords = ["macro", "toml", "config", "config-file", "parser"]
+categories = ["config", "rust-patterns", "filesystem"]
+exclude = [".gitignore"]
+
+[dependencies]
