@@ -1,5 +1,5 @@
 [package]
-name = "config_from_toml"
+name = "config_toml"
 version = "0.1.0"
 authors = ["Pino"]
 edition = "2024"

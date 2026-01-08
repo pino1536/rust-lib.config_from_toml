@@ -7,7 +7,7 @@ You can chose a **config file** path, a **struct** and **default values** that w
 
 ## Usage
 ```rust
-let config = config_from_toml!(
+let config = config_toml::config_toml!(
     "config.toml",                       // File Name
     {                                    // Struct and default values
       value1: String = String::from("Standardpfad"),

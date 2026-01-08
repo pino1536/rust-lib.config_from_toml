@@ -2,7 +2,7 @@
 /// 
 /// # Example
 /// ```
-/// let config = config_from_toml::config_from_toml!(
+/// let config = config_toml::config_toml!(
 ///     "config.toml",                       // File Name
 ///     {                                    // Struct and default values
 ///         value1: String = String::from("Standardpfad"),
@@ -13,7 +13,7 @@
 /// ```
 
 #[macro_export]
-macro_rules! config_from_toml {
+macro_rules! config_toml {
     ($file:expr, { $($key:ident: $typ:ty = $default:expr),* $(,)? }) => {{
         
         struct Config {
