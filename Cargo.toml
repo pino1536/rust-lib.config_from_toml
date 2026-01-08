@@ -11,6 +11,6 @@ license = "Unlicense"
 license-file = "LICENSE"
 keywords = ["macro", "toml", "config", "config-file", "parser"]
 categories = ["config", "rust-patterns", "filesystem"]
-exclude = [".gitignore"]
+exclude = [".gitignore", "/tests", "/examples"]
 
 [dependencies]

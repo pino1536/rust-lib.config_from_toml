@@ -7,10 +7,10 @@ You can chose a **config file** path, a **struct** and **default values** that w
 
 ## Usage
 ```rust
-let config = config_toml::config_toml!(
+let config = config_toml::Config!(
     "config.toml",                       // File Name
     {                                    // Struct and default values
-      value1: String = String::from("Standardpfad"),
+      value1: String = String::from("Hello Rust"),
       value2: u32 = 7,
       value3: bool = false,
     }
