@@ -8,7 +8,6 @@ documentation = ""
 readme = "README.md"
 repository = "https://github.com/pino1536/rust-lib.config_from_toml"
 license = "Unlicense"
-license-file = "LICENSE"
 keywords = ["macro", "toml", "config", "config-file", "parser"]
 categories = ["config", "rust-patterns", "filesystem"]
 exclude = [".gitignore", "/tests", "/examples"]
